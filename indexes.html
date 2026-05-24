@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Sarah Store — Discover Your Style</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="logo-cont">
+            <h2>Sarah <span>Store</span></h2>
+        </div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#collection">Collection</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons-nav">
+            <a href="#shop">Shop Now</a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="home" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="bar fade-down">
+                <i class="fa-solid fa-star"></i>
+                <h3>New <span>Collection</span> 2026</h3>
+            </div>
+            <div class="text-cont fade-up">
+                <h1>Discover Your <span>Perfect</span> Style</h1>
+                <p>Explore our curated collection of fashion-forward pieces designed to make you feel confident and beautiful every day.</p>
+            </div>
+            <div class="hero-btns fade-up">
+                <a href="#shop" class="btn-primary">Shop Now</a>
+                <a href="#about" class="btn-outline">Our Story</a>
+            </div>
+            <div class="hero-stats fade-up">
+                <div class="stat">
+                    <span class="stat-num">+100</span>
+                    <span class="stat-label">Products</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-num">+200</span>
+                    <span class="stat-label">Customers</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-num">4.9</span>
+                    <span class="stat-label">Rating</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="cat" id="shop">
+        <div class="title">
+            <div class="primary-sub">
+                <p>Browse</p>
+            </div>
+            <div class="secondary">
+                <h2>Shop By Category</h2>
+            </div>
+            <div class="sub">
+                <p>Find exactly what you're looking for in our carefully curated collections</p>
+            </div>
+        </div>
+
+        <div class="card-cont">
+            <div class="card fade-up">
+                <div class="image-card">
+                    <img src="https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg" alt="Dresses">
+                </div>
+                <div class="card-badge">New</div>
+                <div class="card-info">
+                    <h3>Dresses</h3>
+                    <p><span>48</span> Products</p>
+                    <div class="card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+            </div>
+            <div class="card fade-up" style="transition-delay:0.1s">
+                <div class="image-card">
+                    <img src="https://images.pexels.com/photos/2220316/pexels-photo-2220316.jpeg" alt="Tops">
+                </div>
+                <div class="card-info">
+                    <h3>Tops</h3>
+                    <p><span>62</span> Products</p>
+                    <div class="card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+            </div>
+            <div class="card fade-up" style="transition-delay:0.2s">
+                <div class="image-card">
+                    <img src="https://images.pexels.com/photos/1021693/pexels-photo-1021693.jpeg" alt="Accessories">
+                </div>
+                <div class="card-info">
+                    <h3>Accessories</h3>
+                    <p><span>35</span> Products</p>
+                    <div class="card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+            </div>
+            <div class="card fade-up" style="transition-delay:0.3s">
+                <div class="image-card">
+                    <img src="https://images.pexels.com/photos/2220317/pexels-photo-2220317.jpeg" alt="Outerwear">
+                </div>
+                <div class="card-badge sale">Sale</div>
+                <div class="card-info">
+                    <h3>Outerwear</h3>
+                    <p><span>29</span> Products</p>
+                    <div class="card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Sellers -->
+    <section class="seller" id="collection">
+        <div class="title">
+            <div class="primary-sub"><p>Most Loved</p></div>
+            <div class="secondary"><h2>Best Sellers</h2></div>
+            <div class="sub"><p>Our most loved pieces — chosen by thousands of happy customers</p></div>
+        </div>
+
+        <div class="filter-tabs">
+            <button class="tab active">All</button>
+            <button class="tab">Dresses</button>
+            <button class="tab">Tops</button>
+            <button class="tab">Accessories</button>
+        </div>
+
+        <div class="cont-seller">
+
+            <div class="card-seller fade-up">
+                <div class="img-seller">
+                    <img src="https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg" alt="Floral Summer Dress">
+                    <div class="img-overlay">
+                        <a href="./pages/productShow.html" class="quick-view">Quick View</a>
+                    </div>
+                    <div class="wishlist-btn"><i class="fa-regular fa-heart"></i></div>
+                    <div class="product-badge">Best Seller</div>
+                </div>
+                <div class="cont-seller-text">
+                    <div class="mini-sub"><p>DRESSES</p></div>
+                    <div class="title-sub"><p>Floral Summer Dress</p></div>
+                    <div class="stars-cont">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="review-count">(128)</span>
+                    </div>
+                    <div class="price-row">
+                        <p class="price">1,500 DA</p>
+                        <p class="old-price">2,000 DA</p>
+                    </div>
+                    <a href="./pages/productShow.html" class="add-to-cart">
+                        <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-seller fade-up" style="transition-delay:0.1s">
+                <div class="img-seller">
+                    <img src="https://images.pexels.com/photos/2220316/pexels-photo-2220316.jpeg" alt="Elegant Blouse">
+                    <div class="img-overlay">
+                        <a href="#" class="quick-view">Quick View</a>
+                    </div>
+                    <div class="wishlist-btn"><i class="fa-regular fa-heart"></i></div>
+                </div>
+                <div class="cont-seller-text">
+                    <div class="mini-sub"><p>TOPS</p></div>
+                    <div class="title-sub"><p>Elegant Silk Blouse</p></div>
+                    <div class="stars-cont">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="review-count">(84)</span>
+                    </div>
+                    <div class="price-row">
+                        <p class="price">1,200 DA</p>
+                    </div>
+                    <a href="#" class="add-to-cart">
+                        <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-seller fade-up" style="transition-delay:0.2s">
+                <div class="img-seller">
+                    <img src="https://images.pexels.com/photos/1021693/pexels-photo-1021693.jpeg" alt="Boho Maxi">
+                    <div class="img-overlay">
+                        <a href="#" class="quick-view">Quick View</a>
+                    </div>
+                    <div class="wishlist-btn"><i class="fa-regular fa-heart"></i></div>
+                    <div class="product-badge new">New</div>
+                </div>
+                <div class="cont-seller-text">
+                    <div class="mini-sub"><p>DRESSES</p></div>
+                    <div class="title-sub"><p>Boho Maxi Dress</p></div>
+                    <div class="stars-cont">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="review-count">(97)</span>
+                    </div>
+                    <div class="price-row">
+                        <p class="price">1,800 DA</p>
+                    </div>
+                    <a href="#" class="add-to-cart">
+                        <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-seller fade-up" style="transition-delay:0.3s">
+                <div class="img-seller">
+                    <img src="https://images.pexels.com/photos/2220317/pexels-photo-2220317.jpeg" alt="Classic Coat">
+                    <div class="img-overlay">
+                        <a href="#" class="quick-view">Quick View</a>
+                    </div>
+                    <div class="wishlist-btn"><i class="fa-regular fa-heart"></i></div>
+                </div>
+                <div class="cont-seller-text">
+                    <div class="mini-sub"><p>OUTERWEAR</p></div>
+                    <div class="title-sub"><p>Classic Wool Coat</p></div>
+                    <div class="stars-cont">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="review-count">(52)</span>
+                    </div>
+                    <div class="price-row">
+                        <p class="price">3,200 DA</p>
+                        <p class="old-price">4,000 DA</p>
+                    </div>
+                    <a href="#" class="add-to-cart">
+                        <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-seller fade-up" style="transition-delay:0.4s">
+                <div class="img-seller">
+                    <img src="https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg" alt="Lace Top">
+                    <div class="img-overlay">
+                        <a href="#" class="quick-view">Quick View</a>
+                    </div>
+                    <div class="wishlist-btn"><i class="fa-regular fa-heart"></i></div>
+                </div>
+                <div class="cont-seller-text">
+                    <div class="mini-sub"><p>TOPS</p></div>
+                    <div class="title-sub"><p>Romantic Lace Top</p></div>
+                    <div class="stars-cont">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <span class="review-count">(41)</span>
+                    </div>
+                    <div class="price-row">
+                        <p class="price">900 DA</p>
+                    </div>
+                    <a href="#" class="add-to-cart">
+                        <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-seller fade-up" style="transition-delay:0.5s">
+                <div class="img-seller">
+                    <img src="https://images.pexels.com/photos/2220316/pexels-photo-2220316.jpeg" alt="Pearl Bag">
+                    <div class="img-overlay">
+                        <a href="#" class="quick-view">Quick View</a>
+                    </div>
+                    <div class="wishlist-btn"><i class="fa-regular fa-heart"></i></div>
+                </div>
+                <div class="cont-seller-text">
+                    <div class="mini-sub"><p>ACCESSORIES</p></div>
+                    <div class="title-sub"><p>Pearl Mini Bag</p></div>
+                    <div class="stars-cont">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="review-count">(73)</span>
+                    </div>
+                    <div class="price-row">
+                        <p class="price">2,400 DA</p>
+                    </div>
+                    <a href="#" class="add-to-cart">
+                        <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="view-all-cont">
+            <a href="#" class="btn-primary">View All Products <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <!-- Banner Promo -->
+    <section class="promo-banner">
+        <div class="promo-content fade-up">
+            <p class="promo-tag">Limited Time Offer</p>
+            <h2>Up to <span>40% Off</span> Summer Collection</h2>
+            <p class="promo-sub">Don't miss out on our biggest sale of the year</p>
+            <a href="#shop" class="btn-primary">Shop the Sale</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="title">
+            <div class="primary-sub"><p>Discover Our Story</p></div>
+            <div class="secondary"><h2>About Sarah Store</h2></div>
+        </div>
+        <div class="container-about">
+            <div class="image-about fade-left">
+                <img src="https://images.pexels.com/photos/5418933/pexels-photo-5418933.jpeg" alt="Sarah Store">
+                <div class="img-badge">
+                    <span class="badge-num">5+</span>
+                    <span class="badge-text">Years of Style</span>
+                </div>
+            </div>
+            <div class="text-about fade-right">
+                <div class="header-text">
+                    <h1>About</h1>
+                    <h2>Sarah Store</h2>
+                </div>
+                <div class="sub-head">
+                    <p>Fashion is how you express who you truly are</p>
+                </div>
+                <div class="about-head">
+                    <p>Sarah Store was born from a passion for making every woman feel beautiful, confident, and uniquely herself. We believe that fashion isn't just about clothes — it's about telling your story.</p>
+                    <p>From our carefully selected collections to our commitment to quality and style, we're dedicated to bringing you pieces that make you shine every day.</p>
+                </div>
+                <div class="about-features">
+                    <div class="feature-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Premium quality fabrics</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Ethically sourced materials</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Designed for every body type</span>
+                    </div>
+                </div>
+                <a href="#contact" class="btn-primary" style="width:fit-content">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="title">
+            <div class="primary-sub"><p>Happy Clients</p></div>
+            <div class="secondary"><h2>What They Say</h2></div>
+            <div class="sub"><p>Real reviews from our amazing community</p></div>
+        </div>
+        <div class="testi-cont">
+            <div class="testi-card fade-up">
+                <div class="testi-stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="testi-text">"I absolutely love my floral dress! The quality is amazing and the fit is perfect. Will definitely order again!"</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">S</div>
+                    <div>
+                        <p class="author-name">Sana M.</p>
+                        <p class="author-loc">Algiers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card fade-up" style="transition-delay:0.15s">
+                <div class="testi-stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="testi-text">"Sarah Store is my go-to for every occasion. Fast delivery, beautiful packaging, and stunning pieces!"</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">L</div>
+                    <div>
+                        <p class="author-name">Lina K.</p>
+                        <p class="author-loc">Oran</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card fade-up" style="transition-delay:0.3s">
+                <div class="testi-stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p class="testi-text">"The coat I ordered exceeded my expectations. Premium quality at a very fair price. Highly recommend!"</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">N</div>
+                    <div>
+                        <p class="author-name">Nadia B.</p>
+                        <p class="author-loc">Constantine</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Bar -->
+    <section class="bar2">
+        <div class="cont-bar">
+            <div class="card-bar fade-up">
+                <div class="icons-bar">
+                    <i class="fa-solid fa-truck-fast"></i>
+                </div>
+                <div class="title-bar"><h3>Fast Delivery</h3></div>
+                <div class="sub-bar"><p>Free delivery on all orders over 3,000 DA — fast and reliable nationwide</p></div>
+            </div>
+            <div class="card-bar fade-up" style="transition-delay:0.1s">
+                <div class="icons-bar">
+                    <i class="fa-solid fa-arrow-rotate-left"></i>
+                </div>
+                <div class="title-bar"><h3>Easy Returns</h3></div>
+                <div class="sub-bar"><p>Not happy? Return within 14 days — no questions asked</p></div>
+            </div>
+            <div class="card-bar fade-up" style="transition-delay:0.2s">
+                <div class="icons-bar">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="title-bar"><h3>Secure Payment</h3></div>
+                <div class="sub-bar"><p>All transactions are 100% secure and encrypted</p></div>
+            </div>
+            <div class="card-bar fade-up" style="transition-delay:0.3s">
+                <div class="icons-bar">
+                    <i class="fa-solid fa-headset"></i>
+                </div>
+                <div class="title-bar"><h3>24/7 Support</h3></div>
+                <div class="sub-bar"><p>Our team is always here to help you anytime</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter" id="contact">
+        <div class="news-content fade-up">
+            <div class="primary-sub"><p>Stay Updated</p></div>
+            <h2>Join Our Style Community</h2>
+            <p>Subscribe and get exclusive offers, new arrivals, and style tips delivered to your inbox.</p>
+            <form class="news-form" onsubmit="handleSubscribe(event)">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+            <p class="news-note"><i class="fa-solid fa-shield-halved"></i> We respect your privacy. Unsubscribe at any time.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="footer-cont">
+            <div class="footer-brand">
+                <h2>Sarah <span>Store</span></h2>
+                <p>Fashion is not just about clothes — it's about expressing who you truly are. Discover your style with us.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="#home">Home</a>
+                <a href="#shop">Shop</a>
+                <a href="#collection">Collection</a>
+                <a href="#about">About Us</a>
+            </div>
+            <div class="footer-col">
+                <h4>Categories</h4>
+                <a href="#">Dresses</a>
+                <a href="#">Tops & Blouses</a>
+                <a href="#">Outerwear</a>
+                <a href="#">Accessories</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Algiers, Algeria</p>
+                <p><i class="fa-solid fa-phone"></i> +213 XX XXX XXXX</p>
+                <p><i class="fa-solid fa-envelope"></i> hello@sarahstore.dz</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Sarah Store. All rights reserved. Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-top" id="backTop">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <script src="main.js"></script>
+</body>
+</html>
